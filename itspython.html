@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Complete guide on how to use Python language: what is Python, Python operators like //, Python uses, learning resources and Mac setup">
+    <title>How to Use Python Language | Complete Python Guide for Beginners</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <header class="mb-12 text-center">
+            <h1 class="text-4xl font-bold text-blue-600 mb-4">How to Use Python: The Complete Guide</h1>
+            <p class="text-xl text-gray-600">Learn what is Python, how to use Python language, Python operators like //, and how to use Python on Mac</p>
+        </header>
+
+        <article class="space-y-12">
+            <!-- What is Python Language -->
+            <section class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold text-blue-500 mb-4">What is Python Language?</h2>
+                <div class="space-y-4">
+                    <p><strong>Python</strong> is a versatile, high-level programming language known for its simple syntax and powerful capabilities. When learning <strong>how to use Python language</strong>, you'll discover it emphasizes code readability and productivity.</p>
+                    
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <h3 class="font-bold text-blue-700 mb-2">Key Features of Python Language:</h3>
+                        <ul class="list-disc pl-6 space-y-2">
+                            <li><strong>Interpreted:</strong> No compilation needed - run code directly</li>
+                            <li><strong>Dynamic typing:</strong> No need to declare variable types</li>
+                            <li><strong>Multi-paradigm:</strong> Supports OOP, functional, and procedural programming</li>
+                            <li><strong>Extensible:</strong> Can integrate with C/C++ and other languages</li>
+                        </ul>
+                    </div>
+                    
+                    <p>When you <strong>use Python</strong>, you join millions of developers in fields from web development to artificial intelligence.</p>
+                </div>
+            </section>
+
+            <!-- Python Operators: // -->
+            <section class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold text-blue-500 mb-4">How to Use // in Python</h2>
+                <div class="space-y-4">
+                    <p>The <code class="bg-gray-100 px-2 py-1 rounded">//</code> operator in Python performs <strong>floor division</strong>, a fundamental operation when you <strong>use Python</strong> for mathematical computations.</p>
+                    
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-medium mb-2">How it works:</h3>
+                            <ul class="list-disc pl-6 space-y-1">
+                                <li>Divides two numbers</li>
+                                <li>Returns the largest integer less than or equal to the result</li>
+                                <li>Different from regular division (<code class="bg-gray-100 px-1 py-0.5 rounded">/</code>) which returns a float</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-100 p-4 rounded-md">
+                            <h3 class="font-medium mb-2">Usage Examples:</h3>
+                            <pre class="bg-black text-green-400 p-3 rounded overflow-x-auto">
+# Positive numbers
+print(7 // 2)   # Output: 3
+
+# Negative numbers
+print(-7 // 2)  # Output: -4
+
+# With floats
+print(7.5 // 2) # Output: 3.0</pre>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-yellow-50 p-4 rounded-lg mt-4">
+                        <h3 class="font-bold text-yellow-700 mb-2">When to Use // in Python:</h3>
+                        <ul class="list-disc pl-6 space-y-1">
+                            <li>When you need integer results from division</li>
+                            <li>Working with array indices or pagination</li>
+                            <li>Performance-critical integer operations</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- How to Use Python -->
+            <section class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold text-blue-500 mb-4">How Do I Use Python?</h2>
+                <div class="space-y-6">
+                    <p>Learning <strong>how to use Python</strong> involves understanding both the language syntax and its ecosystem. Here's how to get started:</p>
+                    
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="bg-green-50 p-4 rounded-lg">
+                            <h3 class="font-bold text-green-700 mb-2">1. Installation</h3>
+                            <p>Download from <a href="https://www.python.org/downloads/" class="text-blue-600 hover:underline">python.org</a> or use package managers:</p>
+                            <ul class="list-disc pl-6 mt-2">
+                                <li>Windows: Official installer</li>
+                                <li>Mac: <code class="bg-gray-100 px-2 py-1 rounded">brew install python</code></li>
+                                <li>Linux: <code class="bg-gray-100 px-2 py-1 rounded">sudo apt install python3</code></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-green-50 p-4 rounded-lg">
+                            <h3 class="font-bold text-green-700 mb-2">2. Running Python</h3>
+                            <p>Three main ways to <strong>use Python</strong>:</p>
+                            <ul class="list-disc pl-6 mt-2">
+                                <li>REPL (interactive shell)</li>
+                                <li>Script files (<code class="bg-gray-100 px-2 py-1 rounded">.py</code>)</li>
+                                <li>Jupyter Notebooks</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <h3 class="font-bold text-blue-700 mb-2">Basic Python Usage Example</h3>
+                        <p>Create a file named <code class="bg-gray-100 px-2 py-1 rounded">example.py</code>:</p>
+                        <pre class="bg-black text-green-400 p-3 rounded overflow-x-auto mt-2">
+# How to use Python for a simple calculation
+def calculate_discount(price, discount):
+    return price * (1 - discount/100)
+
+# Using the function
+original_price = 200
+discount_percent = 15
+final_price = calculate_discount(original_price, discount_percent)
+
+print(f"Final price: ${final_price:.2f}")</pre>
+                        <p class="mt-2">Run with: <code class="bg-gray-100 px-2 py-1 rounded">python example.py</code></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- How to Use Python on Mac -->
+            <section class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold text-blue-500 mb-4">How to Use Python on Mac</h2>
+                <div class="space-y-6">
+                    <p>MacOS provides special considerations when you <strong>use Python on Mac</strong>. Here's the complete setup guide:</p>
+                    
+                    <div class="border-l-4 border-blue-500 pl-4">
+                        <h3 class="font-bold text-lg mb-2">1. Check Pre-installed Python</h3>
+                        <p>Mac comes with Python 2.7 (deprecated) and sometimes Python 3. Check versions:</p>
+                        <pre class="bg-black text-green-400 p-2 rounded mt-2 overflow-x-auto">
+# Check Python 2
+python --version
+
+# Check Python 3
+python3 --version</pre>
+                    </div>
+                    
+                    <div class="border-l-4 border-blue-500 pl-4">
+                        <h3 class="font-bold text-lg mb-2">2. Install Current Python Version</h3>
+                        <p>Best methods to <strong>use Python on Mac</strong>:</p>
+                        <div class="grid md:grid-cols-2 gap-4 mt-2">
+                            <div class="bg-gray-100 p-3 rounded">
+                                <h4 class="font-medium">Official Installer</h4>
+                                <p>Download from python.org</p>
+                            </div>
+                            <div class="bg-gray-100 p-3 rounded">
+                                <h4 class="font-medium">Homebrew</h4>
+                                <pre class="bg-black text-green-400 p-1 rounded overflow-x-auto text-sm">
+brew install python</pre>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="border-l-4 border-blue-500 pl-4">
+                        <h3 class="font-bold text-lg mb-2">3. Set Up Your Environment</h3>
+                        <p>Essential tools when you <strong>use Python on Mac</strong>:</p>
+                        <ul class="list-disc pl-6 mt-2">
+                            <li>Virtual environments (<code class="bg-gray-100 px-2 py-1 rounded">python3 -m venv</code>)</li>
+                            <li>Package management with pip</li>
+                            <li>pyenv for multiple Python versions</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-gray-100 p-4 rounded-md">
+                        <h3 class="font-medium mb-2">Mac-Specific Python Usage Example</h3>
+                        <pre class="bg-black text-green-400 p-3 rounded overflow-x-auto">
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import os
+
+def clear_screen():
+    """How to use Python on Mac for system tasks"""
+    os.system('clear')
+
+def get_mac_info():
+    """Get macOS system information"""
+    return os.uname()
+
+if __name__ == "__main__":
+    clear_screen()
+    print("System Information:")
+    print(get_mac_info())</pre>
+                    </div>
+                </div>
+            </section>
+
+            <!-- How to Learn Python -->
+            <section class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold text-blue-500 mb-4">How to Learn Python Effectively</h2>
+                <div class="space-y-6">
+                    <p>Mastering <strong>how to use Python language</strong> requires a structured approach:</p>
+                    
+                    <div class="grid md:grid-cols-3 gap-4">
+                        <div class="bg-purple-50 p-4 rounded-lg">
+                            <h3 class="font-bold text-purple-700 mb-2">Beginner Stage</h3>
+                            <ul class="list-disc pl-6 space-y-1">
+                                <li>Basic syntax and variables</li>
+                                <li>Control structures</li>
+                                <li>Functions and modules</li>
+                                <li>File I/O operations</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-purple-50 p-4 rounded-lg">
+                            <h3 class="font-bold text-purple-700 mb-2">Intermediate Stage</h3>
+                            <ul class="list-disc pl-6 space-y-1">
+                                <li>Object-oriented programming</li>
+                                <li>Error handling</li>
+                                <li>Working with APIs</li>
+                                <li>Database interactions</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-purple-50 p-4 rounded-lg">
+                            <h3 class="font-bold text-purple-700 mb-2">Advanced Stage</h3>
+                            <ul class="list-disc pl-6 space-y-1">
+                                <li>Decorators and generators</li>
+                                <li>Concurrency and parallelism</li>
+                                <li>Performance optimization</li>
+                                <li>Contributing to open source</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-yellow-50 p-4 rounded-lg">
+                        <h3 class="font-bold text-yellow-700 mb-2">Practical Tips to Learn Python</h3>
+                        <ul class="list-disc pl-6 space-y-1">
+                            <li>Code daily - even just 30 minutes</li>
+                            <li>Work on real projects, not just tutorials</li>
+                            <li>Learn to read documentation</li>
+                            <li>Join Python communities</li>
+                            <li>Contribute to open source projects</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- What is Python Used For -->
+            <section class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold text-blue-500 mb-4">What is Python Used For?</h2>
+                <div class="space-y-6">
+                    <p>Understanding <strong>what is Python used for</strong> helps you appreciate its versatility:</p>
+                    
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <h3 class="font-bold text-lg mb-2">Popular Applications</h3>
+                            <ul class="list-disc pl-6 space-y-2">
+                                <li><strong>Web Development:</strong> Django, Flask, FastAPI</li>
+                                <li><strong>Data Science:</strong> Pandas, NumPy, SciPy</li>
+                                <li><strong>Machine Learning:</strong> TensorFlow, PyTorch</li>
+                                <li><strong>Automation:</strong> Scripting, bots, workflows</li>
+                                <li><strong>Scientific Computing:</strong> Research, simulations</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h3 class="font-bold text-lg mb-2">Industry Use Cases</h3>
+                            <ul class="list-disc pl-6 space-y-2">
+                                <li><strong>Finance:</strong> Algorithmic trading, analytics</li>
+                                <li><strong>Healthcare:</strong> Medical imaging, drug discovery</li>
+                                <li><strong>Gaming:</strong> Prototyping, scripting</li>
+                                <li><strong>Education:</strong> Teaching programming concepts</li>
+                                <li><strong>DevOps:</strong> Infrastructure automation</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gray-100 p-4 rounded-md">
+                        <h3 class="font-medium mb-2">Example: How to Use Python for Web Scraping</h3>
+                        <pre class="bg-black text-green-400 p-3 rounded overflow-x-auto">
+import requests
+from bs4 import BeautifulSoup
+
+# What is Python used for? Web scraping!
+url = "https://example.com"
+response = requests.get(url)
+soup = BeautifulSoup(response.text, 'html.parser')
+
+# Extract all headlines
+headlines = [h.text for h in soup.find_all('h2')]
+print("Page Headlines:", headlines)</pre>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <footer class="mt-16 text-center text-gray-600 border-t pt-8">
+            <p>© 2023 Python Programming Guide. Learn how to use Python language effectively.</p>
+            <div class="mt-4 space-x-4">
+                <a href="#" class="text-blue-600 hover:underline">Privacy Policy</a>
+                <a href="#" class="text-blue-600 hover:underline">Terms of Use</a>
+                <a href="#" class="text-blue-600 hover:underline">Contact</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
