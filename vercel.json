@@ -1,15 +1,27 @@
 {
-"version": 2,
-"builds": [
-{
-"src": "itspython.html",
-"use": "@vercel/static"
-}
-],
-"routes": [
-{
-"src": "/",
-"dest": "/itspython.html"
-}
-]
+    "version": 2,
+    "builds": [
+        {
+            "src": "itspython.html",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "ads.txt",
+            "use": "@vercel/static"
+        }
+
+    ],
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/itspython.html"
+        },
+        {
+            "src": "/ads.txt",
+            "dest": "/ads.txt",
+            "headers": {
+                "Content-Type": "text/plain"
+            }
+        }
+    ]
 }
